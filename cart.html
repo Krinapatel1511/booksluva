@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksLuva</title>
+   <!--<href="https://www.w3schools.com/w3css/4/w3.css">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css//cart.css">
+    <script src="../js/cart.js"></script>
+</head>
+<body>
+    <!--<div class="page">
+            <p >Cart</div>
+                 <div class="icon">
+                     <i class="material-icons">home</i> > Cart  
+                 </div>
+            </p>
+        </div>--> 
+        <div class="color">
+            <div class="cart">
+                <a>Cart</a>
+                <div>
+                    <ul class="w3-ul">
+                        <li class="w3-xlarge" href="#shop"><i class="fa fa-home"></i>&nbsp>&nbspCart</li>
+                    </ul>
+                </div>
+            </div>
+        </div>   
+        
+    <div class="box">
+        Product&nbsp;&nbsp;&nbsp;    Price Quantity Iteminstock Subtotal
+    </div>
+
+    
+    <div class="box2">
+        <img src="../images/img1.jpeg" width="50" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cloud Computng-Technical Publications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs. 295.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="quantity buttons_added">
+                 <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+                <!--<input type="text" id="fname" name="fname">-->
+                <input type="text" id="fname" name="firstname" value="10s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp; Rs. 295.00&nbsp;&nbsp;
+        <div id="remove">
+                <button style="font-size:24px"> 
+                    <i class="fa fa-close"></i>
+                </button>
+        </div>
+    </div> 
+
+    <div class="box2">
+        <img src="../images/img2.jpg" width="50" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Digital Forensics-Technical Publications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs. 200.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="quantity buttons_added">
+                 <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="2" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+                <!--<input type="text" id="fname" name="fname">-->
+                <input type="text" id="fname" name="firstname" value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp; Rs. 400.00&nbsp;&nbsp;
+        <div id="remove">
+                <button style="font-size:24px"> 
+                    <i class="fa fa-close"></i>
+                </button>
+        </div>
+    </div> 
+
+    <div class="box2">
+        <img src="../images/img3.jpg" width="50" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Distributed Systems-Technical Publications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs. 314.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="quantity buttons_added">
+                 <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="3" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+                <!--<input type="text" id="fname" name="fname">-->
+                <input type="text" id="fname" name="firstname" value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp; Rs. 942.00&nbsp;&nbsp;
+        <div id="remove">
+                <button style="font-size:24px"> 
+                    <i class="fa fa-close"></i>
+                </button>
+        </div>
+    </div> 
+    
+    <div class="box3">
+            <input type="text" class="coupon" name placeholder="Coupon code">
+                  <button class="btn"><strong>APPLY COUPON</strong></button>
+                  <button class="btn" id="ud"><strong>UPDATE CART</strong></button>
+    </div>
+
+    <div class="box4">
+               <strong>CART TOTALS</strong>
+    </div>
+
+    <div class="box5">
+        
+<table>
+  
+    <tr>
+      <td>Subtotal</td>
+      <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Rs. 1637</td>
+    </tr>
+    <tr>
+        <td>Discount</td>
+        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;0%</td>
+      </tr>
+    
+    <tr>
+      <td>Total</td>
+      <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Rs. 1637</td>
+    </tr>
+  </table>
+    </div>
+
+    <div class="box6">
+        <button class="btn" id="pc"><strong>PROCEED TO CHECKOUT</strong></button> 
+
+    </div>
+    
+    
+</body>
+</html>
